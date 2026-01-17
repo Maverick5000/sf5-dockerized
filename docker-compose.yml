@@ -1,6 +1,6 @@
 services:
   atm:
-    dockerfile: Dockerfile
+    build: .
     restart: unless-stopped
     environment:
       XMS: 4G
