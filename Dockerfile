@@ -16,6 +16,8 @@ RUN chmod +x scripts/*.sh
 
 RUN echo "eula=true" > eula.txt
 
+EXPOSE 25823:25565
+
 ENV XMX="4G" \
     XMS="2G" \
     BACKUP_LOCATION="/var/mcserver/world/"
