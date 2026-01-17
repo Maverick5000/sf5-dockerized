@@ -1,6 +1,6 @@
 services:
   atm:
-    image: ghcr.io/zekrotja/sf5-dockerized:latest
+    dockerfile: Dockerfile
     restart: unless-stopped
     environment:
       XMS: 4G
