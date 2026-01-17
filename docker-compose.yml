@@ -11,8 +11,4 @@ services:
     ports:
       - "25823:25565"
     volumes:
-      - "./minecraft-data/world:/var/mcserver/world"
-      - "./minecraft-data/config:/var/mcserver/config"
-      - "./minecraft-data/whitelist.json:/var/mcserver/whitelist.json"
-      - "./minecraft-data/ops.json:/var/mcserver/ops.json"
-      - "./minecraft-data/server.properties:/var/mcserver/server.properties"
+      - './minecraft-data:/data'
